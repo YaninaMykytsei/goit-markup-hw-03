@@ -131,7 +131,7 @@ ul, ol {
    text-align: center;
    color: #fff;
    margin: 0 auto 48px;
-   width: 496px;
+   max-width: 496px;
 }
 
 .button-hero {
@@ -148,7 +148,7 @@ ul, ol {
    height: 56px;
    margin: 0 auto;
    display: block;
-   margin: 0 auto;
+   min-width: 169px;
 }
 
 .button-hero:hover,
@@ -197,7 +197,7 @@ ul, ol {
 /* section-team */
 .section-team {
    background: #f4f4fd;
-   padding-top: 120px ;
+   padding-top: 120px;
    padding-bottom: 120px;
 }
 .titel-team {
@@ -208,8 +208,12 @@ ul, ol {
    text-align: center;
    color: #2e2f42;
    text-transform: capitalize;
-   margin-bottom: 72px ;
+   margin-bottom: 72px;
 }
+.team-img, .portfolio-img {
+   display: block
+}
+
 .team-list {
    display: flex;
    align-items: center;
