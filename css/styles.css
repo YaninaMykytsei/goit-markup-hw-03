@@ -157,7 +157,9 @@ ul, ol {
 }
 
 /* section-concept */
-
+.section-concept {
+   padding: 120px 0;
+}
 .titel-concept  {
    position: absolute;
    width: 1px;
@@ -173,7 +175,6 @@ ul, ol {
 .concept-list {
    display: flex;
    align-items: center;
-   padding: 120px 0;
    gap: 24px;
 }
 .concept-item {
